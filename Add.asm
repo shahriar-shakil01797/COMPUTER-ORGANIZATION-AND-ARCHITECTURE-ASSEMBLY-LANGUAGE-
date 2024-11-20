@@ -46,7 +46,7 @@ main proc
            
     mov ah,2
     mov dl,bl
-    sub dl,48
+    sub dl,48    ;show
     int 21h       
           
             
