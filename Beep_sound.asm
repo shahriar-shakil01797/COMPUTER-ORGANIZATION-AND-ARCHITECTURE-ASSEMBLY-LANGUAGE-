@@ -5,7 +5,7 @@
 main proc
     
     mov ah,2
-    mov dl,07             ;BEEP SOUND
+    mov dl,07    ;BEEP SOUND
     int 21h
     
   
