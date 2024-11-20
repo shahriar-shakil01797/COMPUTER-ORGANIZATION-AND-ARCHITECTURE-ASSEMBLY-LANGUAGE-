@@ -9,7 +9,7 @@
      
      mov ah,2
      mov dl,bl
-     add dl,32
+     add dl,32     ;sub dl,32
      int 21h
       
   exit:
