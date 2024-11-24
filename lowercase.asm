@@ -4,7 +4,7 @@
  main proc
   
      mov ah,1
-     int 21h
+     int 21h          ;input
      mov bl,al
      
      mov ah,2
