@@ -11,7 +11,7 @@ a db 'I am shakil khan $'
     
     
     mov ah,9
-    lea dx,a
+    lea dx,a         ;string input
     int 21h
     
     exit:
