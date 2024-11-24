@@ -22,7 +22,7 @@
     
        
     mov ah,9
-    lea dx,b
+    lea dx,b  ;string input
     int 21h
     
     mov ah,2
