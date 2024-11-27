@@ -17,7 +17,7 @@ a db 'I am shakil khan $'
     exit:
     mov ah,4ch
     int 21h
-    main endp
+    main endp  ;execution
 end main
     
     
