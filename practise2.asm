@@ -26,7 +26,7 @@
     int 21h
     
     mov ah,2
-    mov dl,a
+    mov dl,a ;output
     int 21h
     
     
