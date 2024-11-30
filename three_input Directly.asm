@@ -12,7 +12,7 @@ main proc
     
     
     mov ah,9
-    lea dx,x
+    lea dx,x   ;input string
     int 21h
     
     mov ah,1
