@@ -9,7 +9,7 @@ main proc
     mov ax,@data
     mov ds,ax
     
-    mov cx,5 ;for 5 (*) 
+    mov cx,5
     mov ah,9
     lea dx,a 
     
