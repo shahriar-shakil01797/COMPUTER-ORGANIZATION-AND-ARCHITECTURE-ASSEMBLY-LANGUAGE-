@@ -15,7 +15,7 @@ main proc
     int 21h
     
     while:
-    cmp bl,'0'
+    cmp bl,'0' ;compare with 0
     je exit:
     
     
