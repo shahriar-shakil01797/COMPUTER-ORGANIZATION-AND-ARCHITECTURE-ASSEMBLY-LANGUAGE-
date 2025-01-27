@@ -7,7 +7,7 @@ main proc
     mov cx,256
     
     mov ah,2
-    mov dl,0
+    mov dl,0   ;can i add int 21h
     
     loop:
       
