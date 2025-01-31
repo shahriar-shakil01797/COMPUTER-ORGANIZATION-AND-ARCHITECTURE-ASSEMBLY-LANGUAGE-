@@ -18,7 +18,7 @@ main proc
     mov cl,'1'
     
     for:
-    cmp cl,bl
+    cmp cl,bl 
     je exit:
     
     mov ah,2
@@ -27,7 +27,7 @@ main proc
     
     inc cl
     
-    jmp for:
+    jmp for:  ;go to for
     
     exit:
     mov ah,4ch
