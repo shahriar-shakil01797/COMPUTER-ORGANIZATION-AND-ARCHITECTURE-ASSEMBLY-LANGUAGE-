@@ -4,7 +4,7 @@
 
 main proc
     
-    mov cx,256
+    mov cx,256   ;256 value show
     
     mov ah,2
     mov dl,0
